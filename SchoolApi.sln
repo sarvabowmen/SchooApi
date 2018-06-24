@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SchoolApi", "SchoolApi\SchoolApi.csproj", "{3994EA09-6B2D-4F25-9554-71F5D48563C3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SchoolApi.DataAccess", "SchoolApi.DataAccess\SchoolApi.DataAccess.csproj", "{C414132E-25C9-460A-A723-2AE62AD208B7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SchoolApi.DataAccess.Models", "SchoolApi.DataAccess.Models\SchoolApi.DataAccess.Models.csproj", "{98270736-626C-4908-9C67-38E5A33EEEED}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{A0B1539C-70F2-4D17-AA9F-FF0A7B8D623B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SchoolApi.Services", "SchoolApi.Services\SchoolApi.Services.csproj", "{D6A63E9B-D230-49E6-BBAB-328E188B7690}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SchoolApi.Services.Interfaces", "SchoolApi.Services.Interfaces\SchoolApi.Services.Interfaces.csproj", "{98ACA51D-270E-467B-B0F9-362361AAA360}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Repositories", "Repositories", "{0CB0D583-11C3-4665-9B2C-D87419A5C7A8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3994EA09-6B2D-4F25-9554-71F5D48563C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3994EA09-6B2D-4F25-9554-71F5D48563C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3994EA09-6B2D-4F25-9554-71F5D48563C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3994EA09-6B2D-4F25-9554-71F5D48563C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C414132E-25C9-460A-A723-2AE62AD208B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C414132E-25C9-460A-A723-2AE62AD208B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C414132E-25C9-460A-A723-2AE62AD208B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C414132E-25C9-460A-A723-2AE62AD208B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98270736-626C-4908-9C67-38E5A33EEEED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98270736-626C-4908-9C67-38E5A33EEEED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98270736-626C-4908-9C67-38E5A33EEEED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98270736-626C-4908-9C67-38E5A33EEEED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6A63E9B-D230-49E6-BBAB-328E188B7690}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6A63E9B-D230-49E6-BBAB-328E188B7690}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6A63E9B-D230-49E6-BBAB-328E188B7690}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6A63E9B-D230-49E6-BBAB-328E188B7690}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98ACA51D-270E-467B-B0F9-362361AAA360}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98ACA51D-270E-467B-B0F9-362361AAA360}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98ACA51D-270E-467B-B0F9-362361AAA360}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98ACA51D-270E-467B-B0F9-362361AAA360}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D6A63E9B-D230-49E6-BBAB-328E188B7690} = {A0B1539C-70F2-4D17-AA9F-FF0A7B8D623B}
+		{98ACA51D-270E-467B-B0F9-362361AAA360} = {A0B1539C-70F2-4D17-AA9F-FF0A7B8D623B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {888734A8-B59A-43EE-9819-3F598AAA5D40}
+	EndGlobalSection
+EndGlobal
